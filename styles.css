@@ -1,0 +1,27 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: lightgrey;
+}
+.readme-wrapper:hover {
+  cursor: pointer;
+  font: bold;
+  color: darkgreen;
+}
+
+h2,
+p,
+.readme-wrapper {
+  color: coral;
+  text-align: center;
+}
+
+.boxes {
+  display: block;
+  margin: 3em;
+  padding: 2em;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30em;
+  background-color: cornflowerblue;
+}
